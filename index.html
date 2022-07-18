@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Events at The Annex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="events-page">
+      <!-- <div class="showcase-section">
+      <div class="showcase-slider">
+        <h2 class="event-section-title">HAPPENING THIS MONTH</h2>
+        <div id="showcase-previous">
+          <img
+            class="showcase-previous"
+            src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/prev.png"
+            alt="previous button"
+          />
+        </div>
+        <div id="showcase-next">
+          <img
+            class="showcase-next"
+            src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/next.png"
+            alt="next button"
+          />
+        </div>
+
+        <div id="showcase-slick" class="showcase-slick">
+          <a
+            href="https://events.scenethink.com/aromatherapy-blending-basics-jul-3-2022"
+            target="_blank"
+            alt="Aromatherapy: Blending Basics Event Link"
+            ><div
+              class="showcase-card"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/july03.png);
+              "
+            ></div
+          ></a>
+          <a
+            href="https://events.scenethink.com/wild-inks-forage-color-jul-10-2022"
+            target="_blank"
+            alt="Wild Inks: Forage Color! Event Link"
+            ><div
+              class="showcase-card"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/july10.png);
+              "
+            ></div
+          ></a>
+          <a
+            href="https://events.scenethink.com/gaia-s-magical-indigo-dyeing-workshop-jul-17-2022"
+            target="_blank"
+            alt="Gaia’s Magical Indigo Dyeing Workshop Event Link"
+            ><div
+              class="showcase-card"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/july17.png);
+              "
+            ></div
+          ></a>
+          <a
+            href="https://events.scenethink.com/your-postpartum-pantry-jul-24-2022"
+            target="_blank"
+            alt="Your Postpartum Pantry Event Link"
+            ><div
+              class="showcase-card"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/july24.png);
+              "
+            ></div
+          ></a>
+          <a
+            href="https://events.scenethink.com/aromatherapy-blending-basics-jul-3-2022"
+            target="_blank"
+            alt="Aromatherapy: Blending Basics Event Link"
+            ><div
+              class="showcase-card"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/july03.png);
+              "
+            ></div
+          ></a>
+          <a
+            href="https://events.scenethink.com/wild-inks-forage-color-jul-10-2022"
+            target="_blank"
+            alt="Wild Inks: Forage Color! Event Link"
+            ><div
+              class="showcase-card"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/july10.png);
+              "
+            ></div
+          ></a>
+          <a
+            href="https://events.scenethink.com/gaia-s-magical-indigo-dyeing-workshop-jul-17-2022"
+            target="_blank"
+            alt="Gaia’s Magical Indigo Dyeing Workshop Event Link"
+            ><div
+              class="showcase-card"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/july17.png);
+              "
+            ></div
+          ></a>
+          <a
+            href="https://events.scenethink.com/your-postpartum-pantry-jul-24-2022"
+            target="_blank"
+            alt="Your Postpartum Pantry Event Link"
+            ><div
+              class="showcase-card"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/july24.png);
+              "
+            ></div
+          ></a>
+        </div>
+      </div>
+    </div> -->
+
+      <!-- <div class="annex-header-section">
+      <div class="annex-header">
+        <h2 class="event-section-title">THE ANNEX</h2>
+        <h4 class="annex-subtitle">152</h4>
+      </div>
+    </div> -->
+
+      <div class="all-events-section">
+        <div class="all-events-content">
+          <div class="all-events-title">
+            <h2 class="event-section-title">ALL EVENTS</h2>
+          </div>
+          <div class="events-filter" id="events-filter">
+            <span class="active">UPCOMING</span>
+            <span>PAST</span>
+          </div>
+
+          <div class="event-grid" id="event-grid">
+            <!-- PAST EVENTS -->
+
+            <!-- Wild Inks (Jul 10) -->
+            <a
+              href="https://events.scenethink.com/wild-inks-forage-color-jul-10-2022"
+              target="_blank"
+              alt="wild-inks Forage Color Event Link"
+            >
+              <div class="event-card green past hidden">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/wild-inks.png"
+                  alt="wild-inks Forage Color Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div>
+            </a>
+
+            <!-- Aromatherapy Blending Basics (Jul 03) -->
+            <a
+              href="https://events.scenethink.com/aromatherapy-blending-basics-jul-3-2022"
+              target="_blank"
+              alt="Aromatherapy Blending Basics Event Link"
+            >
+              <div class="event-card yellow past hidden">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/aromatherapy-july3.png"
+                  alt="Aromatherapy Blending Basics Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+
+            <!-- MRH Staff Meeting (Jun 29) -->
+            <!-- <div
+              class="event-card past hidden"
+              style="
+                background-image: url(https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/mrh-staff.png);
+              "
+            ></div> -->
+
+            <!-- Yep! It's Yarrow (Jun 26) -->
+            <a
+              href="https://events.scenethink.com/hwbeugene-presents-yep-it-s-yarrow-jun-26-2022"
+              target="_blank"
+              alt="HwbEugene Presents: Yep! It's Yarrow Event Link"
+            >
+              <div class="event-card blue past hidden">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/yep-its-yarrow.png"
+                  alt="HwbEugene Presents: Yep! It's Yarrow Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+
+            <!-- Love Your Skin (Jun 19) -->
+            <a
+              href="https://events.scenethink.com/love-your-largest-organ-your-skin-jun-19-2022"
+              target="_blank"
+              alt="Love your largest organ, your skin! Event Link"
+              ><div class="event-card yellow past hidden">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/love-your-skin.png"
+                  alt="Love your largest organ, your skin! Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+
+            <!-- FHP (Jun 12) -->
+            <a
+              href="https://events.scenethink.com/mountain-rose-herbs-free-herbalism-project-jun-12-2022"
+              target="_blank"
+              alt="Mountain Rose Herbs: Free Herbalism Project Event Link"
+            >
+              <div class="event-card blue past hidden">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/mrh-fhp.png"
+                  alt="Mountain Rose Herbs: Free Herbalism Project Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+
+            <!-- Farm to Flask (Jun 05) -->
+            <a
+              href="https://events.scenethink.com/farm-to-flask-spirits-herbal-infusions-craft-cocktails-21-jun-5-2022"
+              target="_blank"
+              alt="Farm-to-Flask Spirits, Herbal Infusions, & Craft Cocktails (21+) Event Link"
+            >
+              <div class="event-card green past hidden">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/farm-to-flask.png"
+                  alt="Farm-to-Flask Spirits, Herbal Infusions, & Craft Cocktails (21+) Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+
+            <!-- All About Rose (May 29) -->
+            <a
+              href="https://events.scenethink.com/all-about-rose-with-herbalists-without-borders-eugene-may-29-2022"
+              target="_blank"
+              alt="All About Rose Event Link"
+            >
+              <div class="event-card blue past hidden">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/all-about-rose.png"
+                  alt="All About Rose Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+
+            <!-- UPCOMING EVENTS -->
+
+            <!-- Indigo Dyeing (Jul 17) -->
+            <a
+              href="https://events.scenethink.com/gaia-s-magical-indigo-dyeing-workshop-jul-17-2022"
+              target="_blank"
+              alt="Gaias Magical Indigo Dyeing Event Link"
+            >
+              <div class="event-card yellow upcoming">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/images/stencil/original/image-manager/jul17-indigodyeing.png"
+                  alt="Gaias Magical Indigo Dyeing Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div>
+            </a>
+
+            <!-- Postpartum Pantry (Jul 24) -->
+            <a
+              href="https://events.scenethink.com/your-postpartum-pantry-jul-24-2022"
+              target="_blank"
+              alt="Your Postpartum Pantry Event Link"
+              ><div class="event-card green upcoming">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/images/stencil/original/image-manager/jul24-pantry.png"
+                  alt="Your Postpartum Pantry Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+
+            <!-- Container Gardening (Aug 07) -->
+            <a
+              href="https://events.scenethink.com/successful-container-gardening-aug-7-2022"
+              target="_blank"
+              alt="Successful Container Gardening Event Link"
+              ><div class="event-card blue upcoming">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/images/stencil/original/image-manager/aug07-container.png"
+                  alt="Successful Container Gardening Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+
+            <!-- Blending Herbs (Aug 21) -->
+            <a
+              href="https://events.scenethink.com/blending-herbs-for-taste-and-action-aug-21-2022"
+              target="_blank"
+              alt="Blending Herbs for Taste and Action Event Link"
+              ><div class="event-card yellow upcoming">
+                <img
+                  class="event-card-img"
+                  src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/images/stencil/original/image-manager/aug21-blendingherbs.png"
+                  alt="Blending Herbs for Taste and Action Event Link"
+                />
+                <div class="event-learn-more-button">
+                  <div class="event-learn-more-text">LEARN MORE</div>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="info-section">
+        <div class="about-section">
+          <h2 class="event-section-title">THE ANNEX</h2>
+          <h4 class="event-section-text">
+            Did you know we offer our Annex space for a myriad of events,
+            meetings, workshops, demos, lectures, and more?
+          </h4>
+          <h4 class="event-section-text">
+            Not only do we hold our Sunday series in the Annex from 1-3pm on the
+            weekends, but we can host you and/your organization for many other
+            events!
+          </h4>
+          <br />
+          <h4 class="event-section-text">
+            If you are interested in hosting a Sunday Annex Series, or just want
+            to book the space for any other event, please email
+            <a
+              href="mailto:e.stillwell@mountainroseherbs.com"
+              target="_blank"
+              alt="email link to book the Annex space"
+              >e.stillwell@mountainroseherbs.com</a
+            >.
+          </h4>
+
+          <img
+            src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/annex.jpg"
+            alt="interior of the annex community space"
+            class="annex-img1"
+          />
+          <img
+            src="https://cdn11.bigcommerce.com/s-c0d5nzsjp4/product_images/uploaded_images/292424133-3109820779271307-2014521251359719256-n.jpg"
+            alt="interior of the annex community space"
+            class="annex-img2"
+          />
+        </div>
+      </div>
+    </main>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- <script  src="./script.js"></script> -->
+
+    <script>
+      $("#events-filter span").click(function () {
+        // Remove class 'active' from any <span> that is currently active
+        $("#events-filter .active").removeClass("active");
+
+        // give this <span> that was clicked on a class of 'active'
+        $(this).addClass("active");
+
+        // get the name of the cateory from this <span>, remove up to two spaces from the text and replace them with dashes, and make it lowercase
+        var filterVal = $(this)
+          .text()
+          .replace(" ", "-")
+          .replace(" ", "-")
+          .toLowerCase();
+
+        // This is something new, it's an 'each' function which is basically iterates through each element that matches the selector and applies the function one by one.
+
+        $("#event-grid .event-card").each(function () {
+          // If the filter value that they have clicked on is 'all' then remove the class of hidden from each gallery-item.
+
+          if (filterVal == "all") {
+            $(this).removeClass("hidden");
+          }
+
+          // if it's not all, then
+          else {
+            if ($(this).hasClass(filterVal)) {
+              $(this).removeClass("hidden"); // show those that have the filter class
+            } else {
+              $(this).addClass("hidden"); // hide those that do not have the filter
+            }
+          }
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".showcase-slick").slick({
+          inifinte: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 1279,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 670,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+          nextArrow: $("#showcase-next"),
+          prevArrow: $("#showcase-previous"),
+        });
+      });
+    </script>
+  </body>
+</html>
